@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest DevQuest - Formulário</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="container-form">
+
+            <div class="duvida">
+                <h1 class="titulo">FICOU COM DÚVIDA?<br>NOS MANDE UMA MENSAGEM!</h1>
+                <p class="texto">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em
+                    contato em menos de 24h.</p>
+            </div>
+
+            <form class="formulario" action="index.html" method="get" id="form">
+
+                <input class="input" type="text" name="nome" placeholder="Nome completo *" required>
+                <span class="campo-obrigatorio">campo obrigatório</span>
+
+                <input class="input" type="email" name="email" placeholder="Email *" required>
+                <span class="campo-obrigatorio">campo obrigatório</span>
+
+                <input class="input" type="tel" name="telefone" placeholder="Telefone *" required>
+                <span class="campo-obrigatorio">campo obrigatório</span>
+
+                <input class="input mensagem" type="text" name="mensagem" placeholder="Mensagem *" required>
+                <span class="campo-obrigatorio">campo obrigatório</span>
+                <span class="aviso">*campos obrigatórios</span>
+
+                <input class="botao" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <script src="formulario.js"></script>
+</body>
+
+</html>

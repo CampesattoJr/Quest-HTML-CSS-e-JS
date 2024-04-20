@@ -1,0 +1,128 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    background-image: url(../images/background-formulario.jpg);
+    background-size: contain;
+}
+
+.container-form{
+    display: flex;
+    align-items: center;
+}
+
+.container-form .duvida{
+    width: 300px;
+    margin-right: 60px;
+}
+
+.container-form .duvida .titulo{
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.container-form .duvida .texto{
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container-form .formulario{
+    width: 340px;
+    height: 378px;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 21px;
+}
+
+.container-form .formulario .input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 9px;
+    outline: 0;
+}
+
+.container-form .formulario .mensagem{
+    margin-bottom: 7px;
+    height: 100px;
+    display: flex;
+    padding-bottom: 70px;
+}
+
+.container-form .formulario .aviso{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.container-form .formulario .botao{
+    width: 100%;
+    height: 42px;
+    margin-top: 10px;
+    background-color: #3CCC87;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .4s ease-in-out;
+}
+
+.container-form .formulario .botao:hover{
+    transform: scale(1.03);
+    background-color: #FFF;
+    color: #3CCC87;
+    border: 1px solid #3CCC87;
+}
+
+.container-form .formulario .campo-obrigatorio{
+    margin-bottom: 5px;
+    font-size: 8px;
+    font-weight: 400;
+    color: red;
+    display: none;
+}
+
+/* ESTILOS DOS ITENS EM CASOS DE CONDIÇÕES ESPECÍFICAS   */
+.container-form .formulario .input.invalido{
+    margin-bottom: 0;
+    border-color: #F52E2E;
+}
+
+.container-form .formulario .input.valido{
+    border-color: #00C22B;
+    outline: #00C22B;
+}
+
+.container-form .formulario .mensagem.ativo{
+    margin-bottom: 0;
+    border-color: #F52E2E;
+}
+
+.container-form .formulario .campo-obrigatorio.ativo{
+    display: inline;
+}
+
+.container-form .formulario .aviso{
+    margin-bottom: 11px;
+}
+
+.container-form .formulario .botao.ativo{
+    margin-top: 0;
+}
