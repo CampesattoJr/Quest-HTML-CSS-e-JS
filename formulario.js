@@ -27,6 +27,8 @@ inputs.forEach(input => {
 
         if (ehValido !== "") {
             input.classList.add("valido")
+        } else {
+            input.classList.remove("valido")
         }
     });
 });
