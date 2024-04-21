@@ -99,7 +99,7 @@ main{
     display: none;
 }
 
-/* ESTILOS DOS ITENS EM CASOS DE CONDIÇÕES ESPECÍFICAS   */
+/* ESTILOS DOS ITENS EM CASOS DE CONDIÇÕES ESPECÍFICAS */
 .container-form .formulario .input.invalido{
     margin-bottom: 0;
     border-color: #F52E2E;
@@ -125,4 +125,24 @@ main{
 
 .container-form .formulario .botao.ativo{
     margin-top: 0;
+}
+
+/* RESPONSIVIDADE */
+@media (width <= 768px){
+    .container-form{
+        flex-direction: column;
+        margin: 0 20px;
+    }
+
+    .container-form .duvida{
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+@media (width <= 375px){
+    .container-form .formulario{
+        width: 280px;
+    }
 }
