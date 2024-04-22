@@ -6,7 +6,7 @@ Projeto realizado para conclusão do desafio da quest do curso DevQuest - Dev em
 <img src="src/images/validacao-formulario.gif" alt="gif da tela inicial desktop do projeto">
 
 ### Responsivo
-<img src="src/images/validacao-formulario-responsivo.jpg" alt="gif da tela inicial desktop do projeto">
+<img src="src/images/validacao-formulario-responsivo.jpg" alt="gif da tela inicial mobile do projeto">
 
 ## Tecnologias utilizadas
 - HTML
